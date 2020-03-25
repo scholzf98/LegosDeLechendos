@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Patchables">
+      <UniqueIdentifier>{559e6a1f-03e8-49e2-b2d7-b2439ee69978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GameObjects">
+      <UniqueIdentifier>{0c7ede26-ef9a-4844-9b88-f4765997745c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{ff9720e5-8df3-4b2f-8b3e-b2184173d7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GameObjects">
+      <UniqueIdentifier>{e4e0eb61-53f0-4567-a926-13856efec07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Core">
+      <UniqueIdentifier>{00f156b5-40b2-415f-b0f7-59819e53d0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core">
+      <UniqueIdentifier>{3733096d-552e-4ebb-9404-e86a3229e728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Detour">
+      <UniqueIdentifier>{72b32083-50dc-495f-be15-ca51bcf048e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Console">
+      <UniqueIdentifier>{7fa5d106-dc13-4495-b458-03d4740333a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Core\Detour">
+      <UniqueIdentifier>{b429e60e-a3e8-4677-96f5-8983e62c5905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Core\Console">
+      <UniqueIdentifier>{0010eabe-8f31-4873-b2de-eebbe55f118c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Patchables">
+      <UniqueIdentifier>{cf375486-3e11-4ed5-880f-d782cff27acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{68523286-f106-4d30-a241-ad5db63ab2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Core\Hooking">
+      <UniqueIdentifier>{5ce0376b-182d-49d5-8287-5a7c87ac86f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Hooking">
+      <UniqueIdentifier>{1f8c4536-d4a4-4f95-802d-e9de5fff225e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Core\Renderer">
+      <UniqueIdentifier>{52966c78-3726-495a-8a95-459c5c87abde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Renderer">
+      <UniqueIdentifier>{f93b3793-4b55-44e2-ba46-124fbeb965a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headerdateien\Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetsEU.h">
+      <Filter>Headerdateien\Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsEU.h">
+      <Filter>Headerdateien\Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Headerdateien\Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEnums.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Detour.hpp">
+      <Filter>Headerdateien\Core\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Headerdateien\Core\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Headerdateien\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Patchables.h">
+      <Filter>Headerdateien\Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryScanner.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Headerdateien\Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headerdateien\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Headerdateien\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHeroClient.h">
+      <Filter>Headerdateien\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackableUnit.h">
+      <Filter>Headerdateien\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RiotX3D.h">
+      <Filter>Headerdateien\Core\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctions.h">
+      <Filter>Headerdateien\Core\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Headerdateien\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="r3dRenderer.h">
+      <Filter>Headerdateien\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Quelldateien\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Detour.cpp">
+      <Filter>Quelldateien\Core\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien\Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryScanner.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RiotX3D.cpp">
+      <Filter>Quelldateien\Core\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Patchables.cpp">
+      <Filter>Quelldateien\Patchables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Quelldateien\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Quelldateien\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHeroClient.cpp">
+      <Filter>Quelldateien\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackableUnit.cpp">
+      <Filter>Quelldateien\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFunctions.cpp">
+      <Filter>Quelldateien\Core\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Quelldateien\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hack.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
